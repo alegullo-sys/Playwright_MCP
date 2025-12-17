@@ -76,3 +76,25 @@ Logar com um usuario com email e senha corretos
 | 8 | Verify that 'Logged in as username' is visible |
 | 9 | Click 'Logout' button |
 | 10 | Verify 'Login to your account' is visible |
+
+## Massa de Dados
+| Campo | Valor |
+| --- | --- |
+| **email_incorreto** | usuario@incorreto.com |
+| **senha_incorreta** | senhaincorreta9 |
+
+## CT003: Login User with incorrect email and password
+
+## **Objetivo**
+
+Logar com um usuario com email e senha incorretos
+
+| passo | descrição |
+| 1 | Launch browser |
+| 2 | Navigate to URL http://automationexercise.com |
+| 3 | Verify that home page is visible successfully |
+| 4 | Click on 'Signup / Login' button |
+| 5 | Verify 'Login to your account' is visible |
+| 6 | Enter **email_incorreto** e **senha_incorreta** |
+| 7 | Click 'Login' button |
+| 8 | Verify error 'Your email or password is incorrect!' is visible |
